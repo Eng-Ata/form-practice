@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:repeating-linear-gradient(to right,rgb(237, 207, 237),rgb(243, 184, 243)1%) ;
+}
+
+.form {
+    width: 400px;
+    height: 450px;
+    margin: auto;
+    border: 2px solid rgb(49, 49, 49);
+    margin-top: 140px;
+    border-radius: 35px;
+    box-shadow: 0 0 6px 2px rgb(48, 48, 48);
+  background-color: rgb(201, 187, 205);
+}
+
+.form h2 {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.form label {
+    font-size: 18px;
+    margin: 9px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+input[type="text"] {
+    text-align: center;
+    padding: 5px;
+    margin: 10px 10px;
+    width: 50%;
+    border-radius: 8px;
+    text-align: left;
+    border: 1px solid;
+}
+
+input:nth-last-of-type(2) {
+    margin-right: 36.6px;
+}
+
+input[type="submit"] {
+    width: 150px;
+    height: 50px;
+    display: block;
+    background-color: rgb(72, 47, 68);
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+    box-shadow: 0 4px #2c2c2c;
+    transition: all 0.2s ease;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+input[type="submit"]:active {
+    box-shadow: 0 2px rgb(77, 77, 77);
+    transform: translateY(3px);
+}
+
+.signup {
+    margin: 35px 4px;
+}
+
+.signup a {
+    margin-right: 3px;
+    text-decoration: none;
+}

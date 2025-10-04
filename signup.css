@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: repeating-linear-gradient(to right, rgb(60, 60, 122), rgb(43, 43, 91) 1%);
+}
+
+fieldset {
+    width: 30%;
+    height: 400px;
+    margin: auto;
+    margin-top: 70px;
+    border: 2px solid;
+    background-color: rgb(6, 92, 150);
+    border-radius: 5px;
+}
+
+legend {
+    background-color: rgb(207, 209, 240);
+    border-radius: 3px;
+    padding: 3px;
+}
+
+label {
+    display: block;
+    margin: 10px 8px;
+}
+
+input:not(#submit) {
+    margin-right: 8px;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+input[type='submit'] {
+    /* display: block; */
+    background-color: rgb(16, 16, 128);
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px #011149;
+    transition: all 0.2s ease;
+    margin: auto;
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 40px;
+    right: 90px;
+
+}
+
+input[type="submit"]:active {
+    box-shadow: 0 2px #011149;
+    transform: translateY(3px);
+}
+
+.box1 {
+    display: inline-block;
+    width: 200px;
+}
